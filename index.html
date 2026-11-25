@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>Lexistired</title>
+    <style>
+         h1 {
+        color: hotpink;
+      }
+      body {
+        background: linear-gradient(darkmagenta,hotpink);
+        min-height: 100vh;
+        color: #f5f5f5;
+        font-family: monospace;
+        font-size: 18px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        .keepsake {
+          background-color: #FFA1FF;
+          color: black;
+          border: 2px dashed black;
+          border-radius: 12px;
+          padding: 15px;
+          margin: 10px 0;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+          a:hover { color: black }
+          a { color: mediumvioletred; }
+        .container {
+  display: grid;
+  grid-template:
+    "myHeader myHeader"
+    "mySidebar myMainContent"
+    "mySidebar myFooter"
+    / 1fr 2fr;
+  grid-gap: 10px;
+}
+
+header { grid-area: myHeader; }
+aside { grid-area: mySidebar; }
+main { grid-area: myMainContent; }
+footer { grid-area: myFooter; }
+      
+      }
+    </style>
+    <div class="container">
+  <header>Header</header>
+  <aside>Sidebar</aside>
+  <main>Main Content</main>
+  <footer>Footer</footer>
+  </div>
+  </head>
+  <body>
+  <!-- Why are you in my brain? Just a bit gay? or just being creepy? either way GET OUT!! Only my wife's allowed to do that -->
+    <h1 id="top"> About Me</h1>
+    <p><a href="#To A Friend">To A Friend</a></p>
+    <p>Welcome to my page. I am learning HTML!</p>
+    <p>Some words on this page deserve more feeling than plain text can give them.</p>
+    <p>I am <strong>so glad</strong> you found my <em>website</em>.</p>
+    <hr>
+    <div class="keepsake">
+    <h2 id="To A Friend">To A Friend</h2>
+    <p>
+      <em>What are you suffering for?<br>
+      Your pride or some kind of personal war?<br>
+      And will you throw it away?<br>
+      For noting more than a simple taste?</em><br>
+      <blockquote>It's nobodys battle but your own</blockquote> <p>&mdash; Alexisonfire</p>
+    </p>
+    <p></div>Exported from Lexi's brain with &hearts; on Neocities &starf;&starf;&starf;</p>
+    <p><a href="#top">back to top</a></p>
+    <details>
+      <summary>Click for a secret</summary>
+      <p>This whole page is hand-made, one tag at a time.</p>
+    </details>
+    </div>
+  </body>
+</html>
